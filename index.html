@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tetris Game</title>
+	<meta charset="utf-8">
+	<style>
+		body {
+			background: #202028;
+			color: #fff;
+			display: flex;
+			font-family: sans-serif;
+			font-size: 2em;
+			text-align: center;
+		}
+		.player {
+			flex: 1 1 auto;
+		}
+		canvas {
+			border: solid .2em #fff;
+			height: 80vh;
+		}
+	</style>
+</head>
+<body>
+	<div class="player">
+		<div class="score"></div>
+		<canvas width="240" height="400"></canvas>
+	</div>
+	<div class="player">
+		<div class="score"></div>
+		<canvas width="240" height="400"></canvas>
+	</div>
+	
+	<script src="arena.js"></script>
+	<script src="player.js"></script>
+	<script src="tetris.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
