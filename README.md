@@ -1,4 +1,7 @@
 ## 🎮 HTML5 Canvas Tetris game
+
+Built by following [Math Math Method Tutorial](https://www.youtube.com/watch?v=H2aW5V46khA)
+
 <p align="center">
   <img src="./doc/print.png">
 </p>
