@@ -13,6 +13,7 @@ class Arena {
 		this.matrix.forEach(row => row.fill(0));
 	}
 
+	
 	collide(player)
 	{
 		const [m, o] = [player.matrix, player.pos];
