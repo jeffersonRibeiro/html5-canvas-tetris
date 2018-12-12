@@ -49,6 +49,7 @@ class Arena {
       rowCount++;
     }
     
+	  
     return rowCount;
   }
 }
